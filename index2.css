@@ -1,0 +1,272 @@
+body
+{
+  font-family: Roboto, sans-serif;
+  background: #F9ECF9;
+}
+
+.container
+{
+  padding: 25px;
+  margin-left: 8px;
+}
+
+.card
+{
+  position: relative;
+}
+
+.card-head
+{
+  position: relative;
+  width: 280.12px;
+  height: 130px;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: normal;
+  border-radius: 53px 15px 0px 0px;
+}
+
+.month{
+	position: relative;
+    width: 33px;
+    height: 27px;
+    padding-left: 18px;
+    padding-top: 15px;
+
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* identical to box height */
+
+
+    color: #640C5F;
+
+}
+
+.time{
+    width: 151px;
+    height: 59px;
+    display: block;
+    padding-left: 18px;
+
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    cursor: pointer;
+    /* identical to box height */
+
+
+   color: #640C5F;
+}
+
+.time-badge
+{
+  position: relative;
+  font-size: 18px;
+  font-weight: 300;
+  color: #640C5F;
+  padding-left: 1px;
+  top: -2px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.persons{
+	position: absolute;
+    width: 63px;
+    height: 22px;
+    padding-left: 20px;
+
+   font-family: Rambla;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 22px;
+   text-transform: uppercase;
+   cursor: cell;
+   /* identical to box height */
+
+
+color: #640C5F;
+
+}
+
+.persons b {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+/*.data-right{
+	padding-left: 190px;
+    
+}*/
+
+.date{
+   position: relative;
+   display: block;
+   width: 38px;
+   height: 40px;
+   padding-left: 190px;
+
+   font-family: Rambla;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 64px;
+   line-height: 44px;
+   cursor: cell;
+   /* identical to box height */
+
+
+   color: #640C5F;
+
+}
+
+.day{
+	position: relative;
+    display: block;
+    width: 28px;
+    height: 20px;
+    padding-left: 193px;
+    padding-top: 0px;
+
+    font-family: Rambla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 44px;
+    cursor: cell;
+    /* identical to box height */
+
+
+    color: #640C5F
+}
+
+.card-body{
+	position: absolute;
+    width: 280.24px;
+    height: 270.4px;
+
+    background: #8A3585;
+    border-radius: 32px 32px 32px 32px;
+    transform: rotate(0deg)
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	text-transform: uppercase;
+	border-radius: 22px;
+	background-color: #FFCCFF;
+}
+
+.center th {
+	width: 115px;
+    border-radius: 22px;
+
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: 440px;
+    font-size: 12px;
+    line-height: 21px;
+    cursor: cell;
+    /* identical to box height */
+
+
+    color: #0B0A0B;
+
+	}
+
+.center td{
+	width: 130px;
+	border-radius: 22px;
+	padding-left: 9px;
+	font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    cursor: cell;
+    /* identical to box height */
+
+
+    color: #0B0A0B;
+}
+
+#decr{
+	width: 255px;
+	height: 90px;
+	cursor: cell;
+}
+
+
+.button{
+    width: 53px;
+    height: 48px;
+
+	border:none;
+	color: white;
+	text-align:center;
+	text-decoration: none;
+	display:inline-block;
+	font-size: 8px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.approved {
+	border-radius: 90%;
+	background-color: #4CAF50;
+	padding: 15px;
+	margin-left: 32px;
+	margin-top: 4px;
+
+}
+
+.status{
+	position: relative;
+    width: 80px;
+    height: 28px;
+    display: inline-block;
+
+    background-color: #FFCCFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 8px;
+    cursor: wait;
+
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #0B0A0B; 
+}
+
+.reject {
+	border-radius: 90%;
+	background-color: #f44336;
+	padding: 15px;
+	margin-left: 10px;
+	margin-top: 4px;
+
+}
+
+
+
+
+
+
+
+
+
